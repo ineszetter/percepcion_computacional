@@ -35,8 +35,6 @@ Para la instalación local solo corre:
 
 Ver en línea: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ineszetter/percepcion_computacional/HEAD)
 
-[Ver solo el código fuente en línea](https://gitlab.com/genomorro/unir/-/tree/PC-A2)
-
 Para el uso en una máquina local simplemente abre el archivo `main.ipynb` o `main.py`. Cada proyecto usa archivos `ipynb` y `py` de forma indistinta, gracias a jupytext se pueden sincronizar. Para saber como hacerlo de momento lo mejor es consultar [jupytext](https://jupytext.readthedocs.io/en/latest/index.html "la documentación de jupytext"), después pondré aquí los comandos que use más comúnmente. 
 
 Si inicio con un `ipynb` lo convierto a `py`:
@@ -50,15 +48,3 @@ De otra forma:
 Después de eso hacer algo como:
 
     jupytext --update --to notebook test.py
-
-## Licencia
-This repo is part of Actividades escolares UNIR
-
-Copyright (C) 2021, Edgar Uriel Domínguez Espinoza
-
-Actividades escolares UNIR is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
-
-Actividades escolares UNIR is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License along with Actividades escolares UNIR; if not, see <http://www.gnu.org/licenses/> or write to the Free Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
-
